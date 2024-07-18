@@ -2,11 +2,11 @@ import json
 from flask import Flask
 app = Flask(__name__)
 
-@app.route('/getMyInfo')
+@app.route('/')
 def getMyInfo():
     value = {
-        "name": "Amin",
-        "lastname": "Espinoza",
+        "name": "Juan Esteban",
+        "lastname": "Escobar",
         "socialMedia":
         [
             {"facebookUser": "Juan Yugen"},
